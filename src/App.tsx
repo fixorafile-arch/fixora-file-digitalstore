@@ -874,7 +874,7 @@ const FixoraFileStore = () => {
                       return (
   <div className="w-full h-full flex items-center justify-center p-2">
     <img 
-      src="/public/3.jpg" 
+      src="/3.jpg"
       alt="Business Card" 
       className="w-full h-full object-cover rounded-lg"
     />
