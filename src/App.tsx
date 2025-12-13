@@ -872,26 +872,14 @@ const FixoraFileStore = () => {
                   switch(name) {
                     case 'Business Cards':
                       return (
-                        <div className="w-full h-full flex items-center justify-center p-6">
-                          <div className="w-full bg-white rounded-lg shadow-xl p-4 transform hover:scale-105 transition-all">
-                            <div className="flex items-center space-x-3 mb-3">
-                              <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center">
-                                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                                </svg>
-                              </div>
-                              <div className="flex-1">
-                                <div className="h-2 bg-purple-600 rounded w-3/4 mb-2"></div>
-                                <div className="h-2 bg-purple-400 rounded w-1/2"></div>
-                              </div>
-                            </div>
-                            <div className="space-y-1">
-                              <div className="h-1.5 bg-purple-300 rounded w-2/3"></div>
-                              <div className="h-1.5 bg-purple-300 rounded w-1/2"></div>
-                            </div>
-                          </div>
-                        </div>
-                      );
+  <div className="w-full h-full flex items-center justify-center p-2">
+    <img 
+      src="/public/3.jpg" 
+      alt="Business Card" 
+      className="w-full h-full object-cover rounded-lg"
+    />
+  </div>
+);
                     
                     case 'Banners & Posters':
                       return (
