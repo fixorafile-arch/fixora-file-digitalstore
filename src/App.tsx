@@ -1169,7 +1169,7 @@ const FixoraFileStore = () => {
                   switch(catName) {
                     case 'Business Cards':
                      return (
- return (
+                       
   <div className="w-full h-full flex items-center justify-center p-4">
     <div className="w-full bg-white rounded-lg shadow-xl p-3">
       <div className="flex items-center space-x-2 mb-2">
