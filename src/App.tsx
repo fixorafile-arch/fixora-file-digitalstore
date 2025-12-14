@@ -29,7 +29,7 @@ const FixoraFileStore = () => {
       subCategories: ['Event Banners', 'Sale/Discount Banners', 'Festival Banners', 'Birthday Party Posters', 'Wedding Banners', 'Grand Opening Banners', 'Product Launch Posters', 'Movie Posters', 'Concert/Music Event Posters', 'Sports Event Banners', 'Education/Coaching Institute Banners', 'Real Estate Banners', 'Political Campaign Posters', 'Restaurant Promotional Banners', 'Gym/Fitness Posters', 'Medical/Healthcare Banners', 'Workshop/Seminar Posters', 'Job Fair Banners', 'Charity/NGO Posters', 'Motivational Posters', 'Trade Show Banners', 'Fashion Show Posters', 'Food Festival Banners', 'Technology Event Posters', 'Corporate Event Banners'],
       color: 'from-pink-400 to-pink-600',
       icon: '📋',
-      image: '/category-images/1.jpg',
+      image: '/category-images/2.jpg',
       colorTheme: 'pink'
     },
     'Menu Cards': {
