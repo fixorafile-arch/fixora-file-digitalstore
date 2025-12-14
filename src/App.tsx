@@ -446,23 +446,23 @@ const FixoraFileStore = () => {
                 className={`px-4 py-2 rounded-full whitespace-nowrap font-medium transition-all transform hover:scale-105 border-2 ${currentPage === 'home' && !selectedCategory ? 'bg-purple-600 text-white border-purple-600' : 'border-purple-600 text-purple-600 hover:bg-purple-50'}`}
               >
                 Home
-              </button>
-              {Object.keys(categories).map(cat => (
-                <button
-                  key={cat}
-                  onClick={() => { 
-                    setCurrentPage('category'); 
-                    setSelectedCategory(cat); 
-                    setSelectedSubCategory(null); 
-                    setSelectedProduct(null);
-                    setSubCategoryPage(1);
-                    setProductPage(1);
-                  }}
-                  className={`px-4 py-2 rounded-full whitespace-nowrap font-medium transition-all transform hover:scale-105 border-2 ${selectedCategory === cat ? 'bg-purple-600 text-white border-purple-600' : 'border-purple-600 text-purple-600 hover:bg-purple-50'}`}
-                >
-                  {cat} 
-                </button>
-              ))}
+              {Object.keys(categories).map((cat) => (
+  <button
+    key={cat}
+    onClick={() => {
+      setCurrentPage('category');
+      setSelectedCategory(cat);
+      setSelectedSubCategory(null);
+      setSelectedProduct(null);
+      setSubCategoryPage(1);
+      setProductPage(1);
+    }}
+    className={`px-4 py-2 rounded-full whitespace-nowrap font-medium transition-all transform hover:scale-105 border-2 ${selectedCategory === cat ? 'bg-purple-600 text-white border-purple-600' : 'border-purple-600'}`}
+  >
+    {categories[cat].image && <img src={categories[cat].image} alt={cat} style={{width: '20px', height: '20px', display: 'inline-block', marginRight: '5px'}} />}
+    {cat}
+  </button>
+))}
             </div>
           </div>
         </nav>
