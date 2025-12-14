@@ -22,6 +22,7 @@ const FixoraFileStore = () => {
     'Business Cards': {
       subCategories: ['Corporate Business Cards', 'Freelancer Business Cards', 'Real Estate Agent Cards', 'Doctor/Medical Business Cards', 'Lawyer/Advocate Cards', 'CA/Accountant Cards', 'Restaurant Owner Cards', 'Salon/Parlor Owner Cards', 'Gym/Fitness Trainer Cards', 'Photographer Business Cards', 'Event Planner Cards', 'Interior Designer Cards', 'Fashion Designer Cards', 'Teacher/Tutor Cards', 'Consultant Business Cards', 'Insurance Agent Cards', 'Travel Agent Cards', 'Tech/IT Professional Cards', 'Construction Business Cards', 'E-commerce Business Cards', 'Hotel/Hospitality Cards', 'Jewellery Shop Cards', 'Automobile Dealer Cards', 'Electronics Shop Cards', 'Real Estate Developer Cards'],
       color: 'from-purple-400 to-purple-600',
+      icon: '💼',
       image: '/category-images/3.jpg',
       colorTheme: 'purple'
     },
