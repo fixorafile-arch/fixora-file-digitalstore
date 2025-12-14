@@ -459,7 +459,7 @@ const FixoraFileStore = () => {
     }}
     className={`px-4 py-2 rounded-full whitespace-nowrap font-medium transition-all transform hover:scale-105 border-2 ${selectedCategory === cat ? 'bg-purple-600 text-white border-purple-600' : 'border-purple-600'}`}
   >
-    {categories[cat].image && <img src={categories[cat].image} alt={cat} style={{width: '20px', height: '20px', display: 'inline-block', marginRight: '5px'}} />}
+    {categories[cat].image && <img src={categories[cat].image} alt={cat} style={{width: '20px', height: '20px', display: 'inline-block', marginRight: '5px'}} />}{categories[cat].image && <img src={categories[cat].image} alt="" width="20" />}
     {cat}
   </button>
 ))}
