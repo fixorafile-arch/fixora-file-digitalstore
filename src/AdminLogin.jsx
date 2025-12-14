@@ -11,7 +11,7 @@ const AdminLogin = () => {
     e.preventDefault();
     
     // Simple authentication (change these credentials)
-    if (username === 'Fixorafile' && password === 'Wh77'qn9[6zy') {
+    if (username === 'Fixorafile' && password === 'TWGpwEo3Xd15') {
       localStorage.setItem('adminLoggedIn', 'true');
       navigate('/admin/dashboard');
     } else {
